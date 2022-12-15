@@ -1,13 +1,13 @@
 *{
     color: black;
-    line-height: 1.5;
     font-family: serif;       
     }
 
-    #header{
-        border: none;
-        font-size: 16px;
-        }
+    body{
+        margin-left: 180px;
+        margin-right: 180px;
+        line-height: 1.5;
+    }
 
         .center {
             margin: auto;
@@ -16,8 +16,8 @@
             margin: 28px;
             }
 
-            ul{
-                font-size: 16px;
+            nav ul{
+                font-size: 20px;
                 list-style-type: none;
                 margin: 0;
                 padding: 0;
@@ -40,7 +40,17 @@
                 background-color: #04AA6D;
                 }
 
+                #css{
+                    text-align: right;
+                    margin-left: 1015px;
+                    margin-top: -59px;
+                    border-left: 2px solid rgb(255, 255, 255);
+                    border-right: none;
+                }
+
             img{
+                width: 290px;
+                height: 390px;
                 float: left;
                 display: block;
                 margin-left: auto;
@@ -48,23 +58,23 @@
                 }
 
             h1{
-                font-size: 30px;
+                font-size: 35px;
                 color: rgb(4, 4, 4);
                 }
 
             h2{
-                font-size: 20px;
+                font-size: 25px;
                 color: rgb(4, 4, 4);
                 }
             
             ol{
-                font-size: 16px;
+                font-size: 20px;
                 }
 
             table{
                 border: 1px solid rgb(222, 217, 217);
                 border-radius: 1px;
-                font-size: 16px;
+                font-size: 20px;
                 }
 
                 th, td {
@@ -84,19 +94,19 @@
                 border: 1px rgb(239, 237, 237);
                 border-radius: 8px;
                 padding: 10px;       
-                font-size: 16px;   
+                font-size: 20px;   
                 line-height: 2.2;
                 }
 
                 input[type=text] {
                     display: inline-block;
-                    font-size: 15px;
+                    font-size: 20px;
                     line-height: 1.2;
                     }
 
                     input[type=submit] {
                         width: 100%;
-                        font-size: 15px;
+                        font-size: 18px;
                         background-color: #4CAF50;
                         color: white;
                         padding: 10px;
